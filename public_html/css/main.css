@@ -243,6 +243,7 @@ header a.skip:hover {
     text-align: center;
     background: #2b2b2d;
     max-width: 1371px;
+    margin: 0 auto;
 }
 .sixth_block a > h2 {
     color: #fff;
@@ -356,9 +357,9 @@ header a.skip:hover {
     background: url(../images/third_block_bg_hover.png) no-repeat center 0px;
     margin-bottom: 17px;
 }
-.eighth_block_col1 ul > li:hover {
+/*.eighth_block_col1 ul > li:hover {
     background-position-y: -53px;
-}
+}*/
 .eighth_block_col1 h3 {
     margin: 43px 35px 2px 4px;
     clear: both;
@@ -373,7 +374,8 @@ header a.skip:hover {
 }
 
 .eighth_block_col2 ul {
-    margin: 102px 0px 448px 40px;
+    margin: 102px 0px 179px 40px;
+    overflow: hidden;
 }
 .eighth_block_col2 ul > li {
     float: left;
@@ -468,7 +470,7 @@ header a.skip:hover {
 }
 .tenth_block .fixed_width_container {
     box-sizing: border-box;
-    padding: 77px 34px 10px;
+    padding: 77px 34px 31px;
 }
 .tenth_block h2 {
     margin-bottom: 28px;
@@ -573,24 +575,22 @@ header a.skip:hover {
     height: 361px; 
     background: url(../images/mix_hover_col1_img1.jpg) no-repeat center 0px;   
 }
-.tenth_block .img1:hover .hover {
+.tenth_block .img1:hover .hover, .tenth_block .img2:hover .hover, .tenth_block .img3:hover .hover,
+.tenth_block .img4:hover .hover, .tenth_block .img5:hover .hover, .tenth_block .img6:hover .hover,
+.tenth_block .img7:hover .hover, .tenth_block .img8:hover .hover, .tenth_block .img9:hover .hover,
+.tenth_block .img10:hover .hover, .tenth_block .img11:hover .hover, .tenth_block .img12:hover .hover {
     display: block;
 }
-.tenth_block .img1:hover {
+.tenth_block .img1:hover, .tenth_block .img2:hover, .tenth_block .img10:hover  {
     background-position-y: -361px;
 }
-.tenth_block .img2 .hover {
+.tenth_block .img2 .hover, .tenth_block .img5 .hover, .tenth_block .img6 .hover, .tenth_block .img7 .hover,
+.tenth_block .img8 .hover, .tenth_block .img10 .hover {
     top: 25%;
 }
 .tenth_block .img2 {
     height: 361px;
     background: url(../images/mix_hover_col1_img2.jpg) no-repeat center 0px;
-}
-.tenth_block .img2:hover {
-    background-position-y: -361px;
-}
-.tenth_block .img2:hover .hover {
-    display: block;
 }
 .tenth_block .img3 .hover {
     top: 3%;
@@ -602,9 +602,6 @@ header a.skip:hover {
 .tenth_block .img3:hover {
     background-position-y: -209px;
 }
-.tenth_block .img3:hover .hover {
-    display: block;
-}
 .tenth_block .img4 .hover {
     top: 7%;
 }
@@ -615,24 +612,12 @@ header a.skip:hover {
 .tenth_block .img4:hover {
     background-position-y: -229px;
 }
-.tenth_block .img4:hover .hover {
-    display: block;
-}
-.tenth_block .img5 .hover {
-    top: 25%;
-}
 .tenth_block .img5 {
     height: 344px;
     background: url(../images/mix_hover_col1_img5.jpg) no-repeat center 0px;
 }
 .tenth_block .img5:hover {
     background-position-y: -344px;
-}
-.tenth_block .img5:hover .hover {
-    display: block;
-}
-.tenth_block .img6 .hover {
-    top: 25%;
 }
 .tenth_block .img6 {
     height: 357px;
@@ -641,12 +626,6 @@ header a.skip:hover {
 .tenth_block .img6:hover {
     background-position-y: -357px;
 }
-.tenth_block .img6:hover .hover {
-    display: block;
-}
-.tenth_block .img7 .hover {
-    top: 25%;
-}
 .tenth_block .img7 {
     height: 301px;
     background: url(../images/mix_hover_col1_img7.jpg) no-repeat center 0px;
@@ -654,21 +633,12 @@ header a.skip:hover {
 .tenth_block .img7:hover {
     background-position-y: -301px;
 }
-.tenth_block .img7:hover .hover {
-    display: block;
-}
-.tenth_block .img8 .hover {
-    top: 25%;
-}
 .tenth_block .img8 {
     height: 374px;
     background: url(../images/mix_hover_col1_img8.jpg) no-repeat center 0px;
 }
 .tenth_block .img8:hover {
     background-position-y: -374px;
-}
-.tenth_block .img8:hover .hover {
-    display: block;
 }
 .tenth_block .img9 .hover {
     top: 10%;
@@ -680,21 +650,9 @@ header a.skip:hover {
 .tenth_block .img9:hover {
     background-position-y: -255px;
 }
-.tenth_block .img9:hover .hover {
-    display: block;
-}
-.tenth_block .img10 .hover {
-    top: 25%;
-}
 .tenth_block .img10 {
     height: 361px;
     background: url(../images/mix_hover_col1_img10.jpg) no-repeat center 0px;
-}
-.tenth_block .img10:hover {
-    background-position-y: -361px;
-}
-.tenth_block .img10:hover .hover {
-    display: block;
 }
 .tenth_block .img11 .hover {
     top: 14%;
@@ -706,9 +664,6 @@ header a.skip:hover {
 .tenth_block .img11:hover {
     background-position-y: -269px;
 }
-.tenth_block .img11:hover .hover {
-    display: block;
-}
 .tenth_block .img12 .hover {
     top: 20%;
 }
@@ -719,9 +674,6 @@ header a.skip:hover {
 .tenth_block .img12:hover {
     background-position-y: -301px;
 }
-.tenth_block .img12:hover .hover {
-    display: block;
-}
 
 /*11 block*/
 .eleventh_block {
@@ -731,7 +683,6 @@ header a.skip:hover {
     text-align: center;
     padding: 10px 10px 158px 10px;
     box-sizing: border-box;
-    margin-top: 22px;
 }
 
 .eleventh_block .fixed_width_container p {
@@ -885,13 +836,12 @@ header a.skip:hover {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: url(../images/12block_circle1.png) no-repeat center -10px;
-}
-.twelfth_block .fixed_width_container > ul li a.empty {
-    background: url(../images/12block_circle2.png) no-repeat center -10px;
+    /*background: url(../images/12block_circle1.png) no-repeat center -10px;*/
+    background: lightgray;
+    border-radius: 50%;
 }
 .twelfth_block .fixed_width_container > ul li a:hover {
-    background-position-y: 0px;
+    background-color: grey;
 }
 
 /*13 block*/
@@ -1115,9 +1065,24 @@ header a.skip:hover {
     padding: 0 0 102px;
     letter-spacing: 0.9px;
 }
+.sixteenth_block .fixed_width_container .col2:hover .hover {
+    display: block;
+}
+.sixteenth_block .fixed_width_container .col2:hover .no_hover {
+    display: none;
+}
 
-
-.sixteenth_block .fixed_width_container .col2 > ul {
+.sixteenth_block .fixed_width_container .col2 .no_hover {
+    display: block;
+}
+.sixteenth_block .fixed_width_container .col2 .no_hover {
+    background: #fff;
+    padding-top: 233px;
+}
+.sixteenth_block .fixed_width_container .col2 .hover {
+    display: none;
+}
+.sixteenth_block .fixed_width_container .col2 .hover > ul {
     text-align: left;
     display: block;
     background: #fff;
@@ -1125,10 +1090,10 @@ header a.skip:hover {
     padding: 32px 10px 10px 33px;
     letter-spacing: 0.7px;
 }
-.sixteenth_block .fixed_width_container .col2 > ul li {
+.sixteenth_block .fixed_width_container .col2 .hover > ul li {
     margin-bottom: 14px;
 }
-.sixteenth_block .fixed_width_container .col2 > ul li:last-child {
+.sixteenth_block .fixed_width_container .col2 .hover > ul li:last-child {
     margin-bottom: 25px;
 }
 .sixteenth_block .fixed_width_container .col2 a {
@@ -1231,9 +1196,20 @@ header a.skip:hover {
 .eighteenth_block .fixed_width_container .col1 p.info,
 .eighteenth_block .fixed_width_container .col2 p.info,
 .eighteenth_block .fixed_width_container .col3 p.info {
-    padding: 13px 0 25px 0;
+    padding: 13px 0 25px;
     text-transform: uppercase;
     line-height: 20px;
+}
+.eighteenth_block .fixed_width_container .col1 p.info2 {
+   padding: 0 0 25px;
+    text-transform: uppercase;
+    line-height: 20px; 
+}
+.eighteenth_block .fixed_width_container .col1 p.info {
+    padding-bottom: 0px;
+}
+.eighteenth_block .fixed_width_container .col1 p.info:hover, .eighteenth_block .fixed_width_container .col1 p.info2:hover {
+    color: darkgrey;
 }
 
 /*19 block*/
@@ -1284,7 +1260,7 @@ header a.skip:hover {
 }
 .twenty_block .fixed_width_container {
     text-align: center;
-    padding: 235px 0 237px;
+    padding: 235px 15px 237px;
 }
 .twenty_block .fixed_width_container h2 {
     color: #fff;
